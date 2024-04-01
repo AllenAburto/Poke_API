@@ -1,0 +1,48 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #86a7c0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  max-width: 24px;
+}
+
+
+.brand, .item-link {
+  max-height: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.item-link {
+  padding: 8px 12px; 
+  transition: all 0.3s ease;
+}
+
+.item-link:hover {
+  background-color: #f0f0f0;
+  font-size: 20px;
+
+
+}
+
+.img-card-show {
+  object-fit: cover;
+  height: 200px;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
